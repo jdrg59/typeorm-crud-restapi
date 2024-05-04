@@ -1,0 +1,36 @@
+{
+  "name": "typeorm-crud-restapi",
+  "version": "1.0.0",
+  "description": "CRUD made with TypeORM NodeJS MySQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdrg59/typeorm-crud-restapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdrg59/typeorm-crud-restapi/issues"
+  },
+  "homepage": "https://github.com/jdrg59/typeorm-crud-restapi#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.12.8",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
