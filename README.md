@@ -4,6 +4,19 @@
 - NodeJS
 - Express
 
+### Execute in terminal project
+
+```bash
+//run project in dev
+npm run dev
+
+//Compile project
+npm run buil
+
+//start project Copiled
+npm run start
+```
+
 
 # 1. First steps to create the project
 ## Install requirements
